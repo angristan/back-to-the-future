@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# BSD and GUN `date` aren't the same
+# BSD and GNU `date` aren't the same
 # So we have to check this in order to use the correct options later
 if [ "$(date)" == "$(date -d +0days 2>&1)" ]; then
   # Using date from coreutils, probably Linux
