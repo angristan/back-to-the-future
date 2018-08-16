@@ -4,8 +4,6 @@ No more empty squares on your GitHub profile.
 
 ![](https://i.imgur.com/4CQoEkI.png)
 
-Example: https://github.com/Angristan/time-traveler
-
 ## How to use
 
 ```sh
