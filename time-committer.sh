@@ -41,7 +41,7 @@ fi
 
 for day_number in $(seq $start_day $incr $end_day); do
   # In a negative `for` loop, `day_number` will have a - sign
-  # But in a posifitve loop, it won't have a +
+  # But in a positive loop, it won't have a +
   # However we need the - and + for the `date` command
   if [ "$time" == "f" ]; then
     day_number="+$day_number"
