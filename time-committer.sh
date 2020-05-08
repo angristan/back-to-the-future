@@ -27,7 +27,7 @@ elif [ "$time" == "f" ]; then
   incr="1"
 fi
 
-# BSD's date doesn't understand "date in 0 day"
+# BSD's date doesn't understand "date in 0 days"
 # So we have to start at "date in 1 day" or "date 1 day ago"
 if [ "$GNU" == true ]; then
   start_day='0'
