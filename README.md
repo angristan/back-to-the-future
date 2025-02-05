@@ -2,7 +2,7 @@
 
 No more empty squares on your GitHub profile.
 
-![](https://i.imgur.com/4CQoEkI.png)
+![](./graph.png)
 
 ## How to use
 
